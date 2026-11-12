@@ -1,0 +1,15 @@
+uid: PG-0008
+type: page
+status: proposed
+title: Check answers page
+text: Check answers page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: check-answers
+  slug: check-answers
+  heading: Check your answers before sending your registration
+  button_text: Accept and send
+  origin: ai

@@ -1,0 +1,27 @@
+uid: ATTR-0012
+type: attribute
+status: ratified
+title: A question's hint
+text: 'A question''s hint: Text; optional.'
+rationale: 'Hint text under the question. GOV.UK hint text: use it only to help the
+  user answer, never to repeat the question.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: hint
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:3da32b40b2c60a1c56dafca5a88d545747974ccc134d72be273a4d8b540ec60f
+  content:
+    type: attribute
+    text: 'A question''s hint: Text; optional.'
+    normative: true
+    derived: false
+    attrs: {}

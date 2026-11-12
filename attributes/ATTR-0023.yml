@@ -1,0 +1,28 @@
+uid: ATTR-0023
+type: attribute
+status: ratified
+title: An option's value
+text: 'An option''s value: Answer key; required.'
+rationale: The stable value stored when the option is chosen, so routes, services
+  and tests read the same answer.
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0006
+  type: has_type
+attrs:
+  name: value
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:cd9f255e66e93a2c8a6bb047e335496484764b70f396520776ada616076d71fd
+  content:
+    type: attribute
+    text: 'An option''s value: Answer key; required.'
+    normative: true
+    derived: false
+    attrs: {}

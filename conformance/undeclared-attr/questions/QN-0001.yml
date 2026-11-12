@@ -1,0 +1,20 @@
+uid: QN-0001
+type: question
+status: proposed
+title: What is your full name?
+text: What is your full name?
+normative: true
+links:
+- target: PG-0002
+  type: 'on'
+attrs:
+  text: What is your full name?
+  name: full_name
+  component: text-input
+  why_asked: The registration is issued in the owner's name.
+  answer: mandatory
+  if_empty: Enter your full name
+  autocomplete: name
+  pattern: names
+  origin: ai
+  hnit: Write it as it appears on your passport

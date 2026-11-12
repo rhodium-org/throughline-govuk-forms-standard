@@ -1,0 +1,32 @@
+uid: ENUM-0004
+type: enum
+status: ratified
+title: Autocomplete
+text: 'One of: name, honorific-prefix, given-name, additional-name, family-name,
+  email, tel, street-address, address-line1, address-line2, address-level1, address-level2,
+  postal-code, country-name, bday, bday-day, bday-month, bday-year, organization.'
+rationale: HTML autofill field names for information about the user. Declaring one
+  meets WCAG 2.2 SC 1.3.5 Identify Input Purpose (wcag:SR-0015), which the GOV.UK
+  Design System asks for on name, address, email, phone and date-of-birth fields.
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+  stamp: sha256:8a5668eb1de8165aaf9a743f44afa695efaf2bfda5a532a8542f5d18764df51e
+attrs:
+  values: name, honorific-prefix, given-name, additional-name, family-name, email,
+    tel, street-address, address-line1, address-line2, address-level1, address-level2,
+    postal-code, country-name, bday, bday-day, bday-month, bday-year, organization
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:cde321aadbc60fa68a5847ef80519f30e0c817b35e6604cecb18a503802caeb8
+  content:
+    type: enum
+    text: 'One of: name, honorific-prefix, given-name, additional-name, family-name,
+      email, tel, street-address, address-line1, address-line2, address-level1, address-level2,
+      postal-code, country-name, bday, bday-day, bday-month, bday-year, organization.'
+    normative: true
+    derived: false
+    attrs: {}

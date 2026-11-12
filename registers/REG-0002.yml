@@ -1,0 +1,29 @@
+uid: REG-0002
+type: register
+status: ratified
+title: A form spec's sections live in SEC
+text: A form spec holds its section items in SEC, folder sections/.
+rationale: 'A section groups pages that a user completes as one task. Only a task-list
+  form has sections (GOV.UK Design System: complete multiple tasks), so the register
+  is optional.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: SEC
+  dir: sections
+  holds: section
+  label: Sections
+  required: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:8fdd647c740bee3927ef4dc7cbd22ecdea0bf5d543a224b717f15074e82fdc6c
+  content:
+    type: register
+    text: A form spec holds its section items in SEC, folder sections/.
+    normative: true
+    derived: false
+    attrs: {}

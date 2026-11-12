@@ -1,0 +1,25 @@
+uid: LT-0006
+type: link_type
+status: ratified
+title: The link type goes_to
+text: A form spec's goes_to link.
+rationale: 'A route goes to one page. Not grounding: where a route arrives is a step
+  forward in the journey, not the reason the route exists, and routes may loop back.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: goes_to
+  grounds: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:998be59cc3a34ffd16627a429f6184996ea8b56a2b2295f643c45d688171e58e
+  content:
+    type: link_type
+    text: A form spec's goes_to link.
+    normative: true
+    derived: false
+    attrs: {}

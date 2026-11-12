@@ -1,0 +1,25 @@
+uid: LT-0004
+type: link_type
+status: ratified
+title: The link type checks
+text: A form spec's checks link.
+rationale: 'A validation checks one question''s answer. GDS recover-from-validation-errors
+  pattern: every check a service makes has an error message written for it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: checks
+  grounds: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:190877c94be0417cd973e31dbd3dea09909d05e4e2c26a2c7bbe385f0c443c5f
+  content:
+    type: link_type
+    text: A form spec's checks link.
+    normative: true
+    derived: false
+    attrs: {}

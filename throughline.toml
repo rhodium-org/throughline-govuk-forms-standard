@@ -1,0 +1,62 @@
+[project]
+name = "GOV.UK forms standard (throughline source)"
+format_version = 4
+suggested_namespace = "form"
+
+# A form spec's root is its one form (FRM): every page, question, option,
+# validation and route reaches it by a grounding link. This graph's own root is
+# its intent (INT-0001). Followers inherit this table.
+[grounding]
+root_types = ["form"]
+delivery_roots = ["form"]
+
+# The meta-standard: the kinds of declaration this standard is written in, and
+# the base types its declarations build on (throughline SR-0285). v1.1.0 added
+# the GUIDE register; v1.2.0 adds links that run outside the follower, to any
+# item of a graph it composes, which the answers link uses.
+[[sources]]
+namespace = "meta"
+url = "https://github.com/rhodium-org/throughline-standard-standard"
+ref = "v1.2.0"
+schema = true
+
+# The registers, attributes, links and link types a form spec holds are declared
+# as items: registers/, types/, enums/, attributes/, links/ and link-types/. Each
+# carries the GDS reason for it as its rationale.
+
+[status]
+# deferred = acknowledged and grounded but deliberately parked; approved,
+# implemented and verified track a form from agreed spec to built and tested.
+values = ["deferred", "approved", "implemented", "verified"]
+
+# Allowed status moves (SR-0083), as throughline-plan-standard sets them. The
+# meta-standard retired draft at v1.2.0: an item is born proposed and counts
+# only once a person signs it.
+[transitions]
+proposed    = ["approved", "ratified", "deferred", "suspect", "rejected", "deleted"]
+deferred    = ["proposed", "approved", "suspect", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["proposed", "deleted"]
+
+# Journey rules no declaration can state; followers inherit them (SR-0275).
+# Every page can be reached: a route goes to every page but the start page.
+[[rules.coverage]]
+filter = "type == 'page' and attrs.get('kind') != 'start'"
+needs = "incoming:goes_to"
+severity = "error"
+
+# No dead ends: a route leaves every page but the ones a journey ends on.
+[[rules.coverage]]
+filter = "type == 'page' and attrs.get('kind') not in ('confirmation', 'cannot-continue')"
+needs = "incoming:leaves"
+severity = "error"
+
+# A radios, checkboxes or select question offers options to choose from.
+[[rules.coverage]]
+filter = "type == 'question' and attrs.get('component') in ('radios', 'checkboxes', 'select')"
+needs = "incoming:of"
+severity = "error"

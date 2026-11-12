@@ -1,0 +1,28 @@
+uid: TYPE-0007
+type: type
+status: ratified
+title: Error message
+text: One sentence that starts with a capital, with no exclamation mark and no full
+  stop at the end.
+rationale: 'GOV.UK Design System error message: write in plain English, start with
+  a capital, do not use an exclamation mark and do not end with a full stop. The
+  check catches the mechanical part; the wording rules are in the authoring guidance.'
+normative: true
+links:
+- target: meta:BASE-0001
+  type: has_type
+  stamp: sha256:52de2d414d32b3b12e3243f5b7709aaece4dba5a62b1905e147fa77059b3a5a7
+attrs:
+  pattern: ^[A-Z][^!]*[^.!]$
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:64e1486f7d75c8f56aaa65d105c00d117e416428b4ede87cc4d5562a3f9eb3ce
+  content:
+    type: type
+    text: One sentence that starts with a capital, with no exclamation mark and no
+      full stop at the end.
+    normative: true
+    derived: false
+    attrs: {}

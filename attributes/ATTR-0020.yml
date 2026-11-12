@@ -1,0 +1,27 @@
+uid: ATTR-0020
+type: attribute
+status: ratified
+title: A question's summary label
+text: 'A question''s summary_label: Line; optional.'
+rationale: 'The short key shown on the check-answers page. GOV.UK check answers:
+  the summary list key names the answer, not the full question.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: summary_label
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:c404a4757f0a46e7f1bb5ce1f1f92fd32a432f018514af7bd223c595d94c2286
+  content:
+    type: attribute
+    text: 'A question''s summary_label: Line; optional.'
+    normative: true
+    derived: false
+    attrs: {}

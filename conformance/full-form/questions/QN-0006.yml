@@ -1,0 +1,19 @@
+uid: QN-0006
+type: question
+status: proposed
+title: Describe your boat
+text: Describe your boat
+normative: true
+links:
+- target: PG-0006
+  type: 'on'
+attrs:
+  text: Describe your boat
+  name: boat_description
+  component: character-count
+  why_asked: A description helps the canal team identify the boat on the water.
+  answer: optional
+  max_length: 200
+  hint: Include its colour and any name painted on it
+  summary_label: Description
+  origin: ai

@@ -1,0 +1,28 @@
+uid: ATTR-0025
+type: attribute
+status: ratified
+title: An option's position
+text: 'An option''s position: Count; required.'
+rationale: 'The option''s place in the list. GOV.UK radios: order options alphabetically
+  or by how common they are, never at random.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: position
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:cba51f280a5cd2d0b5aed795c02c4e1e8739db964b0ebf2885429860021cdd0d
+  content:
+    type: attribute
+    text: 'An option''s position: Count; required.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,17 @@
+uid: QN-0002
+type: question
+status: proposed
+title: What is the boat's name?
+text: What is the boat's name?
+normative: true
+links:
+- target: PG-0004
+  type: 'on'
+attrs:
+  text: What is the boat's name?
+  name: boat_name
+  component: text-input
+  why_asked: The name is painted on the registration plate.
+  answer: mandatory
+  if_empty: Enter the boat's name
+  origin: ai

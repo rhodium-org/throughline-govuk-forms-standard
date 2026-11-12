@@ -1,0 +1,25 @@
+uid: TYPE-0006
+type: type
+status: ratified
+title: Answer key
+text: A snake_case name for an answer.
+rationale: An answer is stored and read back under one stable machine name, so a
+  prototype, a service and its tests agree on it.
+normative: true
+links:
+- target: meta:BASE-0001
+  type: has_type
+  stamp: sha256:52de2d414d32b3b12e3243f5b7709aaece4dba5a62b1905e147fa77059b3a5a7
+attrs:
+  pattern: ^[a-z][a-z0-9_]*$
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:b2529e8f4c5d8cc2c59a12b4704a7e0120aa87920168bb2ab5f9a1594b46f4cd
+  content:
+    type: type
+    text: A snake_case name for an answer.
+    normative: true
+    derived: false
+    attrs: {}

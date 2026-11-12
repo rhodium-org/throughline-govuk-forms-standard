@@ -1,0 +1,14 @@
+uid: RT-0005
+type: route
+status: proposed
+title: Boat use to safety equipment
+text: Boat use to safety equipment.
+normative: true
+links:
+- target: PG-0004
+  type: leaves
+- target: PG-0005
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

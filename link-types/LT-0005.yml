@@ -1,0 +1,25 @@
+uid: LT-0005
+type: link_type
+status: ratified
+title: The link type leaves
+text: A form spec's leaves link.
+rationale: A route leaves one page. Each page's way out is part of the form's journey,
+  so a route is grounded in the page it leaves.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: leaves
+  grounds: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:f65ffc2c20eda3c120397a9dad3469e41348db71e1d44e0652b4f3243f6191d4
+  content:
+    type: link_type
+    text: A form spec's leaves link.
+    normative: true
+    derived: false
+    attrs: {}

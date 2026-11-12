@@ -1,0 +1,28 @@
+uid: LINK-0002
+type: link
+status: ratified
+title: A section is part of the form
+text: A section is part of the form.
+rationale: Every section is a task of the one form.
+normative: true
+links:
+- target: REG-0002
+  type: from
+- target: REG-0001
+  type: to
+- target: LT-0001
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:d58081f0a7457780f4f918ea4cf9c962e789a88f42894f09018cba3d63ce94c6
+  content:
+    type: link
+    text: A section is part of the form.
+    normative: true
+    derived: false
+    attrs: {}

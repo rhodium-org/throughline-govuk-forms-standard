@@ -1,0 +1,14 @@
+uid: OPT-0002
+type: option
+status: proposed
+title: As a home
+text: As a home.
+normative: true
+links:
+- target: QN-0003
+  type: of
+attrs:
+  label: As a home
+  value: home
+  position: 2
+  origin: ai

@@ -1,0 +1,25 @@
+uid: LT-0008
+type: link_type
+status: ratified
+title: The link type revealed_by
+text: A form spec's revealed_by link.
+rationale: 'A question is revealed by choosing an option. GOV.UK radios and checkboxes:
+  conditionally reveal a related question, and keep it to a single simple question.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: revealed_by
+  grounds: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:08b4eb0320070b971348499a1c36703ef2e899126ab02649058c4551c4ce20db
+  content:
+    type: link_type
+    text: A form spec's revealed_by link.
+    normative: true
+    derived: false
+    attrs: {}

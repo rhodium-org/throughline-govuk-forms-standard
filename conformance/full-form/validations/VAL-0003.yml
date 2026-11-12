@@ -1,0 +1,14 @@
+uid: VAL-0003
+type: validation
+status: proposed
+title: Description must be 200 characters or fewer
+text: Description must be 200 characters or fewer.
+normative: true
+links:
+- target: QN-0006
+  type: checks
+attrs:
+  rule: max-length
+  message: Description must be 200 characters or fewer
+  value: '200'
+  origin: ai

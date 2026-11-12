@@ -1,0 +1,20 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      # 5.1 reads the declarations from items (SR-0285), passes coverage rules on
+      # to followers (SR-0275) and knows the meta-standard v1.1.0 GUIDE register.
+      - run: pip install "throughline>=5.1"
+      - name: The standard's graph is sound
+        run: tl check
+      - name: Every conformance example passes or fails as conformance/README.md says
+        run: bash conformance/check.sh

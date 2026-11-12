@@ -1,0 +1,28 @@
+uid: ATTR-0022
+type: attribute
+status: ratified
+title: An option's label
+text: 'An option''s label: Line; required.'
+rationale: 'The option''s label as the user sees it. GOV.UK radios and checkboxes:
+  labels are short, start with a capital and need no punctuation at the end.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: label
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:05690e58191d52e967781cc91b22c02ec8eea599b031e7c842cba2d1e8a1ab05
+  content:
+    type: attribute
+    text: 'An option''s label: Line; required.'
+    normative: true
+    derived: false
+    attrs: {}

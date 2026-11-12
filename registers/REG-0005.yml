@@ -1,0 +1,28 @@
+uid: REG-0005
+type: register
+status: ratified
+title: A form spec's options live in OPT
+text: A form spec holds its option items in OPT, folder options/.
+rationale: An option is one answer a user can choose for a radios, checkboxes or
+  select question. A form with no such question has none, so the register is optional.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: OPT
+  dir: options
+  holds: option
+  label: Options
+  required: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:a934af0e160bd0494c1ca7eb5585adfe786ce2909eddad3895f2721aba9c2013
+  content:
+    type: register
+    text: A form spec holds its option items in OPT, folder options/.
+    normative: true
+    derived: false
+    attrs: {}

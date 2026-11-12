@@ -1,0 +1,25 @@
+uid: LT-0003
+type: link_type
+status: ratified
+title: The link type of
+text: A form spec's of link.
+rationale: An option is one of a question's answers. Radios, checkboxes and select
+  offer a fixed set of options (GOV.UK Design System radios, checkboxes, select).
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: of
+  grounds: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:4b7bd77293e81dcb51fb248d907b9b4dd4583d6d8eb77926473fea362e46c679
+  content:
+    type: link_type
+    text: A form spec's of link.
+    normative: true
+    derived: false
+    attrs: {}

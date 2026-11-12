@@ -1,0 +1,12 @@
+uid: FRM-0001
+type: form
+status: proposed
+title: Register a boat on the Avonmere Canal
+text: Lets boat owners register a boat to use the fictional Avonmere Canal, so the
+  canal trust knows who is on the water and that each boat is safe.
+normative: true
+attrs:
+  title: Register a boat on the Avonmere Canal
+  purpose: Lets boat owners register a boat to use the fictional Avonmere Canal,
+    so the canal trust knows who is on the water and that each boat is safe.
+  origin: ai

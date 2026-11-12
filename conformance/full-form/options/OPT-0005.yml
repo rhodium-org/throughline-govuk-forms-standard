@@ -1,0 +1,14 @@
+uid: OPT-0005
+type: option
+status: proposed
+title: Fire extinguisher
+text: Fire extinguisher.
+normative: true
+links:
+- target: QN-0005
+  type: of
+attrs:
+  label: Fire extinguisher
+  value: fire_extinguisher
+  position: 2
+  origin: ai

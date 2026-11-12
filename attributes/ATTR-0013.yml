@@ -1,0 +1,28 @@
+uid: ATTR-0013
+type: attribute
+status: ratified
+title: A question's component
+text: 'A question''s component: Component; required.'
+rationale: The GOV.UK Design System component the question is asked with. Its value
+  equals the component's source_ref in throughline-govuk-components.
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0002
+  type: has_type
+attrs:
+  name: component
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:f43041003960d4e1bfd9e3fbe234cc5a6ae686328b3dcfe93c1954e44341a4b1
+  content:
+    type: attribute
+    text: 'A question''s component: Component; required.'
+    normative: true
+    derived: false
+    attrs: {}

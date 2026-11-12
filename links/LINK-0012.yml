@@ -1,0 +1,16 @@
+uid: LINK-0012
+type: link
+status: proposed
+title: A page may answer items of a graph the form spec composes
+text: A page may answer items of a graph the form spec composes.
+rationale: A page that asks nothing, such as a start or confirmation page, still
+  exists because a requirement calls for it.
+normative: true
+links:
+- target: REG-0003
+  type: from
+- target: LT-0009
+  type: via
+attrs:
+  outside: true
+  origin: ai

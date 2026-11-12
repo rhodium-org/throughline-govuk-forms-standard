@@ -1,0 +1,31 @@
+uid: ATTR-0029
+type: attribute
+status: ratified
+title: A validation's value
+text: 'A validation''s value: Line; required when VAL.rule in (min-length, max-length,
+  min, max, before, after, file-type, file-size, matches-pattern).'
+rationale: The limit the check compares against, such as a length, a date or a file
+  size. A rule that compares needs a value to compare with.
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: value
+  normative: true
+  required_when: VAL.rule in (min-length, max-length, min, max, before, after, file-type,
+    file-size, matches-pattern)
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:8e180fbbaa6029aefdd1c6949ec8858e7556c439328cdc9239df46c84558dc44
+  content:
+    type: attribute
+    text: 'A validation''s value: Line; required when VAL.rule in (min-length, max-length,
+      min, max, before, after, file-type, file-size, matches-pattern).'
+    normative: true
+    derived: false
+    attrs: {}

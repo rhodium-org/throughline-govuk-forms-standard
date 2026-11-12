@@ -1,0 +1,13 @@
+uid: PG-0002
+type: page
+status: proposed
+title: Full name page
+text: Full name page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: question
+  slug: full-name
+  origin: ai

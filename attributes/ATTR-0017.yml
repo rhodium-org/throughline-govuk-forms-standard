@@ -1,0 +1,29 @@
+uid: ATTR-0017
+type: attribute
+status: ratified
+title: A question's why asked
+text: 'A question''s why_asked: Text; required.'
+rationale: 'Why the service needs this answer. GDS question protocol: know why you
+  are asking every question. It is also the data-minimisation record under UK GDPR:
+  a question nobody can justify is removed.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: why_asked
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:6887624d8545e051f5487ec64b1dce4ea3b002687ab069919cdd6803c64825ac
+  content:
+    type: attribute
+    text: 'A question''s why_asked: Text; required.'
+    normative: true
+    derived: false
+    attrs: {}

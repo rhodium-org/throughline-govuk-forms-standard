@@ -1,0 +1,14 @@
+uid: OPT-0003
+type: option
+status: proposed
+title: For business
+text: For business.
+normative: true
+links:
+- target: QN-0003
+  type: of
+attrs:
+  label: For business
+  value: business
+  position: 3
+  origin: ai

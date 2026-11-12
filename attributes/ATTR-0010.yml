@@ -1,0 +1,28 @@
+uid: ATTR-0010
+type: attribute
+status: ratified
+title: A question's text
+text: 'A question''s text: Line; required.'
+rationale: 'The question as asked, in the user''s words. GOV.UK question pages: ask
+  a question, not a field label, and make it the page heading.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: text
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:f32b2a0a87d65ddc19057e606484045751e6dcb0d47b256c6f516cdfb228acd1
+  content:
+    type: attribute
+    text: 'A question''s text: Line; required.'
+    normative: true
+    derived: false
+    attrs: {}

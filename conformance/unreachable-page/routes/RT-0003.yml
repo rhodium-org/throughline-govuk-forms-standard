@@ -1,0 +1,14 @@
+uid: RT-0003
+type: route
+status: proposed
+title: Boat name to confirmation
+text: Boat name to confirmation.
+normative: true
+links:
+- target: PG-0004
+  type: leaves
+- target: PG-0003
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

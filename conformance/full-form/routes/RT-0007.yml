@@ -1,0 +1,14 @@
+uid: RT-0007
+type: route
+status: proposed
+title: Description to check answers
+text: Description to check answers.
+normative: true
+links:
+- target: PG-0006
+  type: leaves
+- target: PG-0008
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

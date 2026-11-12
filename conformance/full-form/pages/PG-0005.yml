@@ -1,0 +1,13 @@
+uid: PG-0005
+type: page
+status: proposed
+title: Safety equipment page
+text: Safety equipment page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: question
+  slug: safety-equipment
+  origin: ai

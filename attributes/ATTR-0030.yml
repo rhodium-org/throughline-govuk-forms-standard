@@ -1,0 +1,28 @@
+uid: ATTR-0030
+type: attribute
+status: ratified
+title: A validation's message
+text: 'A validation''s message: Error message; required.'
+rationale: 'The error message shown when the check fails. GOV.UK error message: say
+  what went wrong and how to fix it, specific to the question.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: TYPE-0007
+  type: has_type
+attrs:
+  name: message
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:38ef30ade2adcb89e364a6dd58ea61496f28e70a9e00fd6efed5d390fb2db289
+  content:
+    type: attribute
+    text: 'A validation''s message: Error message; required.'
+    normative: true
+    derived: false
+    attrs: {}

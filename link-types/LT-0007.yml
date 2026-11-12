@@ -1,0 +1,25 @@
+uid: LT-0007
+type: link_type
+status: ratified
+title: The link type when_chosen
+text: A form spec's when_chosen link.
+rationale: 'A route is taken when an option is chosen. GDS question pages: branch
+  on an answer only where the answer changes what the user must do next.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: when_chosen
+  grounds: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:7f1e7457e566ba87d552457be5908c113d04c079490c803a0412d608bd5390fa
+  content:
+    type: link_type
+    text: A form spec's when_chosen link.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,19 @@
+uid: QN-0005
+type: question
+status: proposed
+title: Which safety equipment does the boat carry?
+text: Which safety equipment does the boat carry?
+normative: true
+links:
+- target: PG-0005
+  type: 'on'
+attrs:
+  text: Which safety equipment does the boat carry?
+  name: safety_equipment
+  component: checkboxes
+  why_asked: The trust sets safety conditions on boats that carry none.
+  answer: mandatory
+  hint: Select all that apply
+  if_empty: Select the safety equipment the boat carries, or select none
+  summary_label: Safety equipment
+  origin: ai

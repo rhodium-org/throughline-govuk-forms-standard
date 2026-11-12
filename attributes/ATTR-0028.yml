@@ -1,0 +1,28 @@
+uid: ATTR-0028
+type: attribute
+status: ratified
+title: A validation's rule
+text: 'A validation''s rule: Validation rule; required.'
+rationale: 'Which check the validation makes. GDS recover from validation errors:
+  each kind of failure has its own message.'
+normative: true
+links:
+- target: REG-0006
+  type: belongs_to
+- target: ENUM-0006
+  type: has_type
+attrs:
+  name: rule
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:7e268054ae0635c9ea5a5ff816a8adc8f36a6f9182857f64c6ee6e94d9bf63cb
+  content:
+    type: attribute
+    text: 'A validation''s rule: Validation rule; required.'
+    normative: true
+    derived: false
+    attrs: {}

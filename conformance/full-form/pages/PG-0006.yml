@@ -1,0 +1,13 @@
+uid: PG-0006
+type: page
+status: proposed
+title: Boat description page
+text: Boat description page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: question
+  slug: boat-description
+  origin: ai

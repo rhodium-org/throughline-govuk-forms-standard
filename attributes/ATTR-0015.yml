@@ -1,0 +1,29 @@
+uid: ATTR-0015
+type: attribute
+status: ratified
+title: A question's answer
+text: 'A question''s answer: Answer needed; required.'
+rationale: 'Whether the question must be answered. GDS question pages: ask only what
+  you need; mark the rare optional question ''(optional)''. Recorded on every question
+  so a missing decision is caught, not defaulted.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0007
+  type: has_type
+attrs:
+  name: answer
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:6f980d21632a8293b233aad672108731a3443f9771bc5372afc904916bf27243
+  content:
+    type: attribute
+    text: 'A question''s answer: Answer needed; required.'
+    normative: true
+    derived: false
+    attrs: {}

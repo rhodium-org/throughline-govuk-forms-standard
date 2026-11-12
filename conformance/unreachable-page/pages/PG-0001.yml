@@ -1,0 +1,15 @@
+uid: PG-0001
+type: page
+status: proposed
+title: Start page
+text: Start page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: start
+  slug: start
+  heading: Register a boat on the Avonmere Canal
+  button_text: Start now
+  origin: ai

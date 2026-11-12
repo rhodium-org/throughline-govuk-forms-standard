@@ -1,0 +1,28 @@
+uid: LINK-0004
+type: link
+status: ratified
+title: An option is of one question
+text: An option is of one question.
+rationale: Each option is an answer to exactly one radios, checkboxes or select question.
+normative: true
+links:
+- target: REG-0005
+  type: from
+- target: REG-0004
+  type: to
+- target: LT-0003
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:54bb6e31db138f77f1ff4beb8e8aee8b3eb288000a16d291883f71ce55628120
+  content:
+    type: link
+    text: An option is of one question.
+    normative: true
+    derived: false
+    attrs: {}

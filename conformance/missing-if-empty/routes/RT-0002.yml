@@ -1,0 +1,14 @@
+uid: RT-0002
+type: route
+status: proposed
+title: Full name to confirmation
+text: Full name to confirmation.
+normative: true
+links:
+- target: PG-0002
+  type: leaves
+- target: PG-0003
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

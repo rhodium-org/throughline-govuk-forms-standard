@@ -1,0 +1,20 @@
+throughline-govuk-forms-standard
+Copyright 2026 Henry J Grech-Cini
+
+This product includes work developed by Dr Henry J Grech-Cini.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline standard: a graph of declarations, not a
+program. It states the model a GOV.UK form is specified in, so form specs can be
+checked against GDS guidance with throughline.
+
+The rules it declares are drawn from the GOV.UK Design System and the GOV.UK
+Service Manual, produced by the Government Digital Service. That guidance content
+is © Crown copyright and is published under the Open Government Licence v3.0
+(https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). The
+guidance paraphrased in this repository's rationales and in guidance/AUTHORING.md
+remains Crown copyright; this repository claims no ownership over it and
+reproduces it for interoperability. See https://design-system.service.gov.uk/ for
+the authoritative source.

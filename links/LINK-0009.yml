@@ -1,0 +1,27 @@
+uid: LINK-0009
+type: link
+status: ratified
+title: A route may be taken when options are chosen
+text: A route may be taken when options are chosen.
+rationale: A branching route names the options that send the user its way. A route
+  with none is the page's straight-on way out.
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: REG-0005
+  type: to
+- target: LT-0007
+  type: via
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:7178fffaf7cec0ebcc55894f7b0e463b1c2cdf152b63abb2e565ea8a5566d726
+  content:
+    type: link
+    text: A route may be taken when options are chosen.
+    normative: true
+    derived: false
+    attrs: {}

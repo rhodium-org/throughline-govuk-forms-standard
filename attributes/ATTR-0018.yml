@@ -1,0 +1,27 @@
+uid: ATTR-0018
+type: attribute
+status: ratified
+title: A question's autocomplete
+text: 'A question''s autocomplete: Autocomplete; optional.'
+rationale: The HTML autofill name for a question about the user. WCAG 2.2 SC 1.3.5
+  Identify Input Purpose (wcag:SR-0015).
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0004
+  type: has_type
+attrs:
+  name: autocomplete
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:47f39460764d0b9b879452e39ad86bd131e77c75c669e1b75fe5598536862a66
+  content:
+    type: attribute
+    text: 'A question''s autocomplete: Autocomplete; optional.'
+    normative: true
+    derived: false
+    attrs: {}

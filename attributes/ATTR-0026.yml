@@ -1,0 +1,27 @@
+uid: ATTR-0026
+type: attribute
+status: ratified
+title: An option's exclusive
+text: 'An option''s exclusive: Flag; optional.'
+rationale: 'The checkbox option that clears the others, such as ''None of these''.
+  GOV.UK checkboxes: add an option for none.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: exclusive
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:7b07253aa0fbdacb6d76ab22b57f8efa652c5412a840e72331f436cb67fa121c
+  content:
+    type: attribute
+    text: 'An option''s exclusive: Flag; optional.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,28 @@
+uid: LINK-0008
+type: link
+status: ratified
+title: A route goes to one page
+text: A route goes to one page.
+rationale: A route arrives at exactly one page.
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0006
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:d3145a7cddc96fbc65a7f505e95057997e8b27c553b27cbbdbf62a4e82413ad0
+  content:
+    type: link
+    text: A route goes to one page.
+    normative: true
+    derived: false
+    attrs: {}

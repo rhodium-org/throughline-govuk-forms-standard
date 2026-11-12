@@ -1,0 +1,16 @@
+uid: LINK-0011
+type: link
+status: proposed
+title: A form may answer items of a graph the form spec composes
+text: A form may answer items of a graph the form spec composes.
+rationale: The form as a whole answers the intent or business need it exists for,
+  held in the graph that specifies the service.
+normative: true
+links:
+- target: REG-0001
+  type: from
+- target: LT-0009
+  type: via
+attrs:
+  outside: true
+  origin: ai

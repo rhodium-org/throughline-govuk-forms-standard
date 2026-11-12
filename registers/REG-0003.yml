@@ -1,0 +1,27 @@
+uid: REG-0003
+type: register
+status: ratified
+title: A form spec's pages live in PG
+text: A form spec holds its page items in PG, folder pages/.
+rationale: 'A page is one screen of the form. GDS question pages: one thing per page,
+  so the page is the unit a user sees, answers and moves on from.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: PG
+  dir: pages
+  holds: page
+  label: Pages
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:baad809f48c40a9e1b4a0eb7fe84832bf4fa1565484d40dd260023f2210f0964
+  content:
+    type: register
+    text: A form spec holds its page items in PG, folder pages/.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,28 @@
+uid: ATTR-0004
+type: attribute
+status: ratified
+title: A section's position
+text: 'A section''s position: Count; required.'
+rationale: 'A section''s place on the task list. GOV.UK complete multiple tasks:
+  order tasks the way users will expect to do them.'
+normative: true
+links:
+- target: REG-0002
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: position
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:b95dcc8f122df8c04336dcd24e5d8037bf55018e4e2becbf2e0308feb5ae1b98
+  content:
+    type: attribute
+    text: 'A section''s position: Count; required.'
+    normative: true
+    derived: false
+    attrs: {}

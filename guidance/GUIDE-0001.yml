@@ -1,0 +1,30 @@
+uid: GUIDE-0001
+type: guidance
+status: ratified
+title: How to write a form spec
+text: 'The authoring guidance a form spec copies: the order to write a spec in, the
+  rules tl check cannot enforce, and the GDS guidance behind them.'
+rationale: 'Some GDS rules cannot be written as declarations or coverage rules: one
+  start page, one otherwise route per page, unique answer keys, exclusive only on
+  checkboxes, one thing per page, and plain-English error wording. An agent writing
+  a form spec needs them in front of it, so the standard ships them as guidance that
+  tl init copies into each new form spec.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  file: guidance/AUTHORING.md
+  copy_to: AUTHORING.md
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:4d00301c6a10fc38bd0df11e56b86df3def1b6ebe5bbf95bed3edfbbd44cc3a0
+  content:
+    type: guidance
+    text: 'The authoring guidance a form spec copies: the order to write a spec in,
+      the rules tl check cannot enforce, and the GDS guidance behind them.'
+    normative: true
+    derived: false
+    attrs: {}

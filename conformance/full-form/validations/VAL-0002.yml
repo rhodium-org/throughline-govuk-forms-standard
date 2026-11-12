@@ -1,0 +1,13 @@
+uid: VAL-0002
+type: validation
+status: proposed
+title: Date of birth must be in the past
+text: Date of birth must be in the past.
+normative: true
+links:
+- target: QN-0002
+  type: checks
+attrs:
+  rule: past-date
+  message: Date of birth must be in the past
+  origin: ai

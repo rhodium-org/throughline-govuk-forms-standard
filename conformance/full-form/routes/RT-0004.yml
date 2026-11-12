@@ -1,0 +1,15 @@
+uid: RT-0004
+type: route
+status: proposed
+title: A houseboat cannot continue
+text: A houseboat cannot continue.
+normative: true
+links:
+- target: PG-0004
+  type: leaves
+- target: PG-0007
+  type: goes_to
+- target: OPT-0002
+  type: when_chosen
+attrs:
+  origin: ai

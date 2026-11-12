@@ -1,0 +1,25 @@
+uid: LT-0002
+type: link_type
+status: ratified
+title: The link type on
+text: A form spec's on link.
+rationale: 'A question is on one page. GDS question pages: start with one thing per
+  page, so the page a question sits on is part of what the question is.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: 'on'
+  grounds: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:1f84b6d53c43507bacb2fde1018db57e8a5e5989dd89b0f52928941e825cbf30
+  content:
+    type: link_type
+    text: A form spec's on link.
+    normative: true
+    derived: false
+    attrs: {}

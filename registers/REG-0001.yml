@@ -1,0 +1,29 @@
+uid: REG-0001
+type: register
+status: ratified
+title: A form spec's forms live in FRM
+text: A form spec holds its form items in FRM, folder forms/, exactly one.
+rationale: 'A form spec holds one form: its title and what it is for. Every page
+  reaches it, directly or through a section. GDS: a service starts from the user''s
+  need, so the form states its purpose first.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: FRM
+  dir: forms
+  holds: form
+  label: Forms
+  exactly_one: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:f09c0fd8f50a35ef330721067e61def64665c0b0ea406d0f1570928af70eb6bc
+  content:
+    type: register
+    text: A form spec holds its form items in FRM, folder forms/, exactly one.
+    normative: true
+    derived: false
+    attrs: {}

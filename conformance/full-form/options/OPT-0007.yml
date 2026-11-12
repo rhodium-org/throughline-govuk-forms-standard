@@ -1,0 +1,16 @@
+uid: OPT-0007
+type: option
+status: proposed
+title: None of these
+text: None of these.
+normative: true
+links:
+- target: QN-0005
+  type: of
+attrs:
+  label: None of these
+  value: none
+  position: 4
+  exclusive: true
+  divider_before: true
+  origin: ai

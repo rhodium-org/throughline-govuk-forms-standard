@@ -1,0 +1,27 @@
+uid: ATTR-0019
+type: attribute
+status: ratified
+title: A question's width
+text: 'A question''s width: Width; optional.'
+rationale: 'The input''s width. GOV.UK text input: size the field to the answer it
+  expects, because the width is a hint.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0005
+  type: has_type
+attrs:
+  name: width
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:9e8d97e03bfa0cbdccf45643bf506cf74fd2cc57c8bf8dcf3eda124bc6e6799e
+  content:
+    type: attribute
+    text: 'A question''s width: Width; optional.'
+    normative: true
+    derived: false
+    attrs: {}

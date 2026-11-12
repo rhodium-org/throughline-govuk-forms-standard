@@ -1,0 +1,13 @@
+uid: PG-0003
+type: page
+status: proposed
+title: Date of birth page
+text: Date of birth page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: question
+  slug: date-of-birth
+  origin: ai

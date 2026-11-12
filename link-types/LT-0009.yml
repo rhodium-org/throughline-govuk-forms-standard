@@ -1,0 +1,19 @@
+uid: LT-0009
+type: link_type
+status: proposed
+title: The link type answers
+text: A form spec's answers link.
+rationale: 'A form, a page or a question answers an item of a graph the form spec
+  composes: the requirement that calls for it, the GOV.UK component clause or the
+  WCAG criterion it meets. The GDS Service Standard asks a team to show why each
+  thing is asked; a link, unlike a sentence, is checked and is marked for review
+  when the item it points at changes. It does not ground: a form spec''s items reach
+  the form whether or not they answer anything outside it.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: answers
+  grounds: false
+  origin: ai

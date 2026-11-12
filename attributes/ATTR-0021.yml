@@ -1,0 +1,28 @@
+uid: ATTR-0021
+type: attribute
+status: ratified
+title: A question's max length
+text: 'A question''s max_length: Count; required when QN.component == character-count.'
+rationale: 'The character limit a character-count question counts down from. GOV.UK
+  character count: it needs a limit to count against.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0004
+  type: has_type
+attrs:
+  name: max_length
+  normative: true
+  required_when: QN.component == character-count
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:6f8b982299b5ef602d0593fc146fbb2d12f430a2994099bf31e746d80ed48b7b
+  content:
+    type: attribute
+    text: 'A question''s max_length: Count; required when QN.component == character-count.'
+    normative: true
+    derived: false
+    attrs: {}

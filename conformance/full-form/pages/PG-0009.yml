@@ -1,0 +1,14 @@
+uid: PG-0009
+type: page
+status: proposed
+title: Confirmation page
+text: Confirmation page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: confirmation
+  slug: confirmation
+  heading: Registration complete
+  origin: ai

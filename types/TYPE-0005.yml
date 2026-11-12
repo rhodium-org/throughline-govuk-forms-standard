@@ -1,0 +1,25 @@
+uid: TYPE-0005
+type: type
+status: ratified
+title: Slug
+text: Lower-case words joined by hyphens.
+rationale: 'GOV.UK URLs are lower case with words joined by hyphens (GOV.UK style:
+  URLs). A page''s slug is the last part of its URL.'
+normative: true
+links:
+- target: meta:BASE-0001
+  type: has_type
+  stamp: sha256:52de2d414d32b3b12e3243f5b7709aaece4dba5a62b1905e147fa77059b3a5a7
+attrs:
+  pattern: ^[a-z0-9]+(-[a-z0-9]+)*$
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:06ba506d66810a6a1ab154765076a43125a64c5df6f3278ebadd6938a3b5f4dc
+  content:
+    type: type
+    text: Lower-case words joined by hyphens.
+    normative: true
+    derived: false
+    attrs: {}

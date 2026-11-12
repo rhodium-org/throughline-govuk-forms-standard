@@ -1,0 +1,14 @@
+uid: RT-0008
+type: route
+status: proposed
+title: Check answers to confirmation
+text: Check answers to confirmation.
+normative: true
+links:
+- target: PG-0008
+  type: leaves
+- target: PG-0009
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

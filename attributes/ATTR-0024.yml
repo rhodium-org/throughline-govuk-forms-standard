@@ -1,0 +1,27 @@
+uid: ATTR-0024
+type: attribute
+status: ratified
+title: An option's hint
+text: 'An option''s hint: Text; optional.'
+rationale: 'Hint text under one option. GOV.UK radios: add a hint to an option only
+  when it helps the user choose.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: hint
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:42c3d8e7a79c405924f8c597755080e299d9cc88314af5ec3b665088c7b45494
+  content:
+    type: attribute
+    text: 'An option''s hint: Text; optional.'
+    normative: true
+    derived: false
+    attrs: {}

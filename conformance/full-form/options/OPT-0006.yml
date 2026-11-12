@@ -1,0 +1,14 @@
+uid: OPT-0006
+type: option
+status: proposed
+title: First aid kit
+text: First aid kit.
+normative: true
+links:
+- target: QN-0005
+  type: of
+attrs:
+  label: First aid kit
+  value: first_aid_kit
+  position: 3
+  origin: ai

@@ -1,0 +1,27 @@
+uid: LT-0001
+type: link_type
+status: ratified
+title: The link type part_of
+text: A form spec's part_of link.
+rationale: 'A page is part of the form or of one of its sections, and a section is
+  part of the form. This is how every page reaches the one form, so a change to the
+  form marks its pages suspect. GDS task-list pattern: a long form is split into
+  sections a user completes in any order.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  name: part_of
+  grounds: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:101568145f3ad7c1f26d094648d47bda47cdd68191c3659d61c94e59aaa4eee2
+  content:
+    type: link_type
+    text: A form spec's part_of link.
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,22 @@
+uid: QN-0002
+type: question
+status: proposed
+title: What is your date of birth?
+text: What is your date of birth?
+normative: true
+links:
+- target: PG-0003
+  type: 'on'
+attrs:
+  text: What is your date of birth?
+  name: date_of_birth
+  component: date-input
+  why_asked: Only adults can register a boat, so the trust checks the owner is 18
+    or over.
+  answer: mandatory
+  pattern: dates
+  autocomplete: bday
+  if_empty: Enter your date of birth
+  hint: For example, 27 3 1985
+  summary_label: Date of birth
+  origin: ai

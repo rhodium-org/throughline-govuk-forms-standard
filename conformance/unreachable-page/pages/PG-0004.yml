@@ -1,0 +1,13 @@
+uid: PG-0004
+type: page
+status: proposed
+title: Boat name page
+text: Boat name page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: question
+  slug: boat-name
+  origin: ai

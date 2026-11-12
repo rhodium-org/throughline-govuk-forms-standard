@@ -1,0 +1,4 @@
+prefix: RT
+digits: 4
+title: Routes
+type: route

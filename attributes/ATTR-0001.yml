@@ -1,0 +1,28 @@
+uid: ATTR-0001
+type: attribute
+status: ratified
+title: A form's title
+text: 'A form''s title: Line; required.'
+rationale: 'A form''s title is the service name the user sees on every page. GOV.UK
+  service manual: name your service with the words users use for the task.'
+normative: true
+links:
+- target: REG-0001
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: title
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:c0eb90a3c401a461c837541b9a026dd1c9b892203983b378312c19042aa7bafd
+  content:
+    type: attribute
+    text: 'A form''s title: Line; required.'
+    normative: true
+    derived: false
+    attrs: {}

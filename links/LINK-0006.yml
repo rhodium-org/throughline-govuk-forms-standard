@@ -1,0 +1,28 @@
+uid: LINK-0006
+type: link
+status: ratified
+title: A validation checks one question
+text: A validation checks one question.
+rationale: Each check, and its error message, belongs to exactly one question.
+normative: true
+links:
+- target: REG-0006
+  type: from
+- target: REG-0004
+  type: to
+- target: LT-0004
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:8067f55e6d9dfbec623554018a84a1b89ea7ef230026f56c6745f667a3002435
+  content:
+    type: link
+    text: A validation checks one question.
+    normative: true
+    derived: false
+    attrs: {}

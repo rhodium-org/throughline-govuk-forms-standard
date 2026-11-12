@@ -1,0 +1,27 @@
+uid: ATTR-0008
+type: attribute
+status: ratified
+title: A page's body
+text: 'A page''s body: Text; optional.'
+rationale: 'Content shown on the page above any question: what the user needs to
+  know at that step. GDS: keep it short and in plain English.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: TYPE-0002
+  type: has_type
+attrs:
+  name: body
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:c00bbe581891275e400fded46da8ee8c02867e654ca45657fae5c99b97ac3a86
+  content:
+    type: attribute
+    text: 'A page''s body: Text; optional.'
+    normative: true
+    derived: false
+    attrs: {}

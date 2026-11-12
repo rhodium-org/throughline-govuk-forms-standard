@@ -1,0 +1,14 @@
+uid: RT-0001
+type: route
+status: proposed
+title: Start to full name
+text: Start to full name.
+normative: true
+links:
+- target: PG-0001
+  type: leaves
+- target: PG-0002
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

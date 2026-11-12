@@ -1,0 +1,20 @@
+uid: QN-0004
+type: question
+status: proposed
+title: What is the business name?
+text: What is the business name?
+normative: true
+links:
+- target: PG-0004
+  type: 'on'
+- target: OPT-0003
+  type: revealed_by
+attrs:
+  text: What is the business name?
+  name: business_name
+  component: text-input
+  why_asked: A business registration is issued to the business.
+  answer: mandatory
+  autocomplete: organization
+  if_empty: Enter the business name
+  origin: ai

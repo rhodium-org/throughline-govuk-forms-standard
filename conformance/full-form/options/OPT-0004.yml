@@ -1,0 +1,14 @@
+uid: OPT-0004
+type: option
+status: proposed
+title: Life jackets
+text: Life jackets.
+normative: true
+links:
+- target: QN-0005
+  type: of
+attrs:
+  label: Life jackets
+  value: life_jackets
+  position: 1
+  origin: ai

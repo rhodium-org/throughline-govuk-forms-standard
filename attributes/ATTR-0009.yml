@@ -1,0 +1,27 @@
+uid: ATTR-0009
+type: attribute
+status: ratified
+title: A page's button text
+text: 'A page''s button_text: Line; optional.'
+rationale: 'The page''s main button label when it is not ''Continue''. GOV.UK button:
+  use a verb that says what happens, such as ''Start now'' or ''Accept and send''.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: button_text
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:e279cb448336d45682d72e5b65f37f487a9090d92ead184d49153e79b8a39620
+  content:
+    type: attribute
+    text: 'A page''s button_text: Line; optional.'
+    normative: true
+    derived: false
+    attrs: {}

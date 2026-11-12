@@ -1,0 +1,27 @@
+uid: ATTR-0027
+type: attribute
+status: ratified
+title: An option's divider before
+text: 'An option''s divider_before: Flag; optional.'
+rationale: 'Show the ''or'' divider before this option. GOV.UK radios and checkboxes:
+  separate a ''none'' option from the rest with ''or''.'
+normative: true
+links:
+- target: REG-0005
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: divider_before
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:b83e628cd132a66135e3a783db83aa5b7ed6bd5b614414e3ab353ff17e088a6c
+  content:
+    type: attribute
+    text: 'An option''s divider_before: Flag; optional.'
+    normative: true
+    derived: false
+    attrs: {}

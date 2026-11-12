@@ -1,0 +1,24 @@
+uid: INT-0001
+type: intent
+status: ratified
+title: One model every GOV.UK form is specified in
+text: A GOV.UK form is specified as a graph of pages, questions, options, validations
+  and routes, so it can be checked against GDS guidance before anyone builds it,
+  and a prototype, a service and its tests can be read from the same specification.
+  The standard holds what a form is, never how it is rendered.
+normative: false
+attrs:
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:8a5a1265c2ea719418240c76af1cea2d790f254bbf49ffd601d908fc4110d2ba
+  content:
+    type: intent
+    text: A GOV.UK form is specified as a graph of pages, questions, options, validations
+      and routes, so it can be checked against GDS guidance before anyone builds
+      it, and a prototype, a service and its tests can be read from the same specification.
+      The standard holds what a form is, never how it is rendered.
+    normative: false
+    derived: false
+    attrs: {}

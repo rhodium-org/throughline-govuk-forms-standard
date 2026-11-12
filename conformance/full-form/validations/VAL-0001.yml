@@ -1,0 +1,13 @@
+uid: VAL-0001
+type: validation
+status: proposed
+title: Date of birth must be a real date
+text: Date of birth must be a real date.
+normative: true
+links:
+- target: QN-0002
+  type: checks
+attrs:
+  rule: real-date
+  message: Date of birth must be a real date
+  origin: ai

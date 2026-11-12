@@ -1,0 +1,27 @@
+uid: ENUM-0007
+type: enum
+status: ratified
+title: Answer needed
+text: 'One of: mandatory, optional.'
+rationale: 'GDS question pages: ask only for what is needed, and mark the rare optional
+  question ''(optional)''. An enum, not a yes/no flag, because a condition compares
+  enums, ints, floats and dates, and whether an empty answer needs an error message
+  turns on this value.'
+normative: true
+links:
+- target: meta:BASE-0007
+  type: has_type
+  stamp: sha256:8a5668eb1de8165aaf9a743f44afa695efaf2bfda5a532a8542f5d18764df51e
+attrs:
+  values: mandatory, optional
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:4d4dd6e90c6b9091242b38415b7059f04298c373839e490703b4b1938d8b4a42
+  content:
+    type: enum
+    text: 'One of: mandatory, optional.'
+    normative: true
+    derived: false
+    attrs: {}

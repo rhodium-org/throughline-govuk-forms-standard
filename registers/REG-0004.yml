@@ -1,0 +1,27 @@
+uid: REG-0004
+type: register
+status: ratified
+title: A form spec's questions live in QN
+text: A form spec holds its question items in QN, folder questions/.
+rationale: 'A question asks the user for one answer, with one component. GDS question
+  protocol: every question is asked for a reason the service can state.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: QN
+  dir: questions
+  holds: question
+  label: Questions
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:0f0ab6355e918497fb71bcab0952a433908c8dd0f17c641a9b43c71b47775f5c
+  content:
+    type: register
+    text: A form spec holds its question items in QN, folder questions/.
+    normative: true
+    derived: false
+    attrs: {}

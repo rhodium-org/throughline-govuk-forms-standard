@@ -1,0 +1,28 @@
+uid: LINK-0007
+type: link
+status: ratified
+title: A route leaves one page
+text: A route leaves one page.
+rationale: A route is a way out of exactly one page.
+normative: true
+links:
+- target: REG-0007
+  type: from
+- target: REG-0003
+  type: to
+- target: LT-0005
+  type: via
+attrs:
+  min: 1
+  max: 1
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:93d57cd283dfa7542467ee216358252c8dacf7650fe7dd0d1f77c264c1514842
+  content:
+    type: link
+    text: A route leaves one page.
+    normative: true
+    derived: false
+    attrs: {}

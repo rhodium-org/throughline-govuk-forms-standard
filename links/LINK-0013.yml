@@ -1,0 +1,17 @@
+uid: LINK-0013
+type: link
+status: proposed
+title: A question may answer items of a graph the form spec composes
+text: A question may answer items of a graph the form spec composes.
+rationale: Every question is asked because something requires the answer. Linking
+  the question to that requirement, and to the component and accessibility clauses
+  it meets, makes why_asked checkable.
+normative: true
+links:
+- target: REG-0004
+  type: from
+- target: LT-0009
+  type: via
+attrs:
+  outside: true
+  origin: ai

@@ -1,0 +1,32 @@
+uid: ATTR-0007
+type: attribute
+status: ratified
+title: A page's heading
+text: 'A page''s heading: Line; required when PG.kind != question, absent when PG.kind
+  == question.'
+rationale: 'A page that is not a question page has its own H1 heading. On a question
+  page the question is the heading (GOV.UK question pages: use the question as the
+  page heading), so a separate heading there is refused.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: TYPE-0001
+  type: has_type
+attrs:
+  name: heading
+  normative: true
+  required_when: PG.kind != question
+  absent_when: PG.kind == question
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:eeeb5d905fa6d42353897bb8796835ca6b5a2f082d3b9b3fc31f47ab024c0200
+  content:
+    type: attribute
+    text: 'A page''s heading: Line; required when PG.kind != question, absent when
+      PG.kind == question.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,28 @@
+uid: REG-0007
+type: register
+status: ratified
+title: A form spec's routes live in RT
+text: A form spec holds its route items in RT, folder routes/.
+rationale: A route is one way out of a page, to the next page, possibly only when
+  an option is chosen. The routes make the journey, so it can be checked for unreachable
+  pages and dead ends before it is built.
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: RT
+  dir: routes
+  holds: route
+  label: Routes
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:a98e1b266468968e2f4da789da2224843f994d5e91dc8c308682a78664d3a249
+  content:
+    type: register
+    text: A form spec holds its route items in RT, folder routes/.
+    normative: true
+    derived: false
+    attrs: {}

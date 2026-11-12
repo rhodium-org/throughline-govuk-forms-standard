@@ -1,0 +1,14 @@
+uid: OPT-0001
+type: option
+status: proposed
+title: For leisure
+text: For leisure.
+normative: true
+links:
+- target: QN-0003
+  type: of
+attrs:
+  label: For leisure
+  value: leisure
+  position: 1
+  origin: ai

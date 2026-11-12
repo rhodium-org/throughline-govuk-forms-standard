@@ -1,0 +1,14 @@
+uid: RT-0006
+type: route
+status: proposed
+title: Safety equipment to description
+text: Safety equipment to description.
+normative: true
+links:
+- target: PG-0005
+  type: leaves
+- target: PG-0006
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

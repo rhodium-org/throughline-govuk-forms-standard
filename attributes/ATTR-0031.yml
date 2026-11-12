@@ -1,0 +1,27 @@
+uid: ATTR-0031
+type: attribute
+status: ratified
+title: A route's otherwise
+text: 'A route''s otherwise: Flag; optional.'
+rationale: The route taken when no other route out of the page applies. A page that
+  branches still needs a way on for every answer.
+normative: true
+links:
+- target: REG-0007
+  type: belongs_to
+- target: TYPE-0003
+  type: has_type
+attrs:
+  name: otherwise
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:e6d74b9e67623d553e614c170ea0829cfbb5a465dccd53b3d9659f395e2de28d
+  content:
+    type: attribute
+    text: 'A route''s otherwise: Flag; optional.'
+    normative: true
+    derived: false
+    attrs: {}

@@ -1,0 +1,29 @@
+uid: ATTR-0016
+type: attribute
+status: ratified
+title: A question's if empty
+text: 'A question''s if_empty: Error message; required when QN.answer == mandatory.'
+rationale: 'The error message shown when a mandatory question is left empty. GOV.UK
+  error message: every mandatory answer needs one, written for that question, for
+  example ''Enter your full name''.'
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: TYPE-0007
+  type: has_type
+attrs:
+  name: if_empty
+  normative: true
+  required_when: QN.answer == mandatory
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:81e7adf10d01538e3245ecea8b546a65e5c341b3ad49628cf5886e38afff2591
+  content:
+    type: attribute
+    text: 'A question''s if_empty: Error message; required when QN.answer == mandatory.'
+    normative: true
+    derived: false
+    attrs: {}

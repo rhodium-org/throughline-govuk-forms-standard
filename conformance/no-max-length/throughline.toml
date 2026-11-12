@@ -1,0 +1,11 @@
+[project]
+name = "no-max-length (conformance example)"
+format_version = 4
+
+# The standard this graph follows: its item types, attributes, links,
+# statuses and rules are this graph's schema (SR-0275). Declare here only
+# what this graph adds (SR-0276).
+[[sources]]
+namespace = "form"
+path = "../.."
+schema = true

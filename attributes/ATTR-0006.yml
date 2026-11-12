@@ -1,0 +1,28 @@
+uid: ATTR-0006
+type: attribute
+status: ratified
+title: A page's slug
+text: 'A page''s slug: Slug; required.'
+rationale: 'The last part of the page''s URL. GOV.UK style: URLs are lower case with
+  words joined by hyphens, and a URL stays stable.'
+normative: true
+links:
+- target: REG-0003
+  type: belongs_to
+- target: TYPE-0005
+  type: has_type
+attrs:
+  name: slug
+  normative: true
+  required: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:272eaa9bb1b7fa2ad9b1a1cb13c8b47898af7b5f26c3e329727879806665b3eb
+  content:
+    type: attribute
+    text: 'A page''s slug: Slug; required.'
+    normative: true
+    derived: false
+    attrs: {}

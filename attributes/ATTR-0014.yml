@@ -1,0 +1,27 @@
+uid: ATTR-0014
+type: attribute
+status: ratified
+title: A question's pattern
+text: 'A question''s pattern: Answer pattern; optional.'
+rationale: The GOV.UK 'ask users for' pattern the question follows, which fixes its
+  wording, format and validation.
+normative: true
+links:
+- target: REG-0004
+  type: belongs_to
+- target: ENUM-0003
+  type: has_type
+attrs:
+  name: pattern
+  normative: true
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:60167b0e1398af6d2f143ac9d1635875d3a0e40208f2d607194178be73752a76
+  content:
+    type: attribute
+    text: 'A question''s pattern: Answer pattern; optional.'
+    normative: true
+    derived: false
+    attrs: {}

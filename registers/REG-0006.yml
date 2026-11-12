@@ -1,0 +1,29 @@
+uid: REG-0006
+type: register
+status: ratified
+title: A form spec's validations live in VAL
+text: A form spec holds its validation items in VAL, folder validations/.
+rationale: 'A validation is one check on an answer and the error message shown when
+  it fails. GDS: validate only what you must, so a form may have none beyond its
+  required answers.'
+normative: true
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  prefix: VAL
+  dir: validations
+  holds: validation
+  label: Validations
+  required: false
+  origin: ai
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-09T16:53:24Z'
+  fingerprint: sha256:5452ec6837d69f84a9851148ea9cdd8af2477142a692cc2471bd155d0ca0f7f7
+  content:
+    type: register
+    text: A form spec holds its validation items in VAL, folder validations/.
+    normative: true
+    derived: false
+    attrs: {}

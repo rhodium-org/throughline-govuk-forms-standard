@@ -1,0 +1,18 @@
+uid: QN-0003
+type: question
+status: proposed
+title: How will you use the boat?
+text: How will you use the boat?
+normative: true
+links:
+- target: PG-0004
+  type: 'on'
+attrs:
+  text: How will you use the boat?
+  name: boat_use
+  component: radios
+  why_asked: Business and residential use need different registrations.
+  answer: mandatory
+  if_empty: Select how you will use the boat
+  summary_label: Boat use
+  origin: ai

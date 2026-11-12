@@ -1,0 +1,14 @@
+uid: RT-0003
+type: route
+status: proposed
+title: Date of birth to boat use
+text: Date of birth to boat use.
+normative: true
+links:
+- target: PG-0003
+  type: leaves
+- target: PG-0004
+  type: goes_to
+attrs:
+  otherwise: true
+  origin: ai

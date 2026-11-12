@@ -1,0 +1,15 @@
+uid: PG-0007
+type: page
+status: proposed
+title: Cannot register page
+text: Cannot register page.
+normative: true
+links:
+- target: FRM-0001
+  type: part_of
+attrs:
+  kind: cannot-continue
+  slug: cannot-register
+  heading: You cannot register a houseboat with this service
+  body: Contact the canal trust to apply for a residential mooring.
+  origin: ai
